@@ -18,8 +18,9 @@
             echo "Você está aprovado com media ".number_format($media, 1);
         }else{
             echo "Você ficou em exame com media ".number_format($media, 1);
-        }
+        #Desenvolvido por Matheus Dela Libera dos Anjos
         ?>
-        
+    
     </body>
+    
     </html>

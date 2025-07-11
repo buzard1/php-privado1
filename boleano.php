@@ -16,8 +16,6 @@
     {
         echo "Vai chover com toda certeza absoluta da terra!";
     }
-    
-    
     ?>
     
 </body>
