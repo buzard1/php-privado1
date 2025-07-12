@@ -21,7 +21,7 @@
     echo "<hr/>POP: Extrai um elemento do final do array<br/>";
     array_pop($estados);
     echo "POP: "; print_r ($estados);
-    echo "<hr/>PUSH? Adiciona um ou mais elementos no final de um array<br/>";
+    echo "<hr/>PUSH: Adiciona um ou mais elementos no final de um array<br/>";
     array_push($estados, "pr");
     echo "PUSH: "; print_r($estados);
     echo "<hr/>REVERSE: Retorna um array com os elementos na ordem inversa <br/>";
