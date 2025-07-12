@@ -14,9 +14,7 @@
     echo "<br/>";
     var_dump($dias);
     ?>
-    <footer>
-    <tag>Matheus dela libera dos Anjos</tag>
-    </footer>
+<center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
     
 </body>
 </html>

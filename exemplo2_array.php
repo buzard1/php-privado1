@@ -15,15 +15,15 @@
         $estados[$i] = strtolower($estados[$i]);
     }
     echo "STRTOLOWER: "; print_r($estados);
-    echo "<hr/>SHIFT: Retira o primeiro elementp de um array <br/>";
+    echo "<hr/>SHIFT: Retira o primeiro elemento de um array <br/>";
     $rotaciona = array_shift($estados);
-    echo "SHIFT: "; print_r("$estados");
+    echo "SHIFT: "; print_r($estados);
     echo "<hr/>POP: Extrai um elemento do final do array<br/>";
     array_pop($estados);
     echo "POP: "; print_r ($estados);
     echo "<hr/>PUSH? Adiciona um ou mais elementos no final de um array<br/>";
     array_push($estados, "pr");
-    echo "PUSH: " print_r($estados);
+    echo "PUSH: "; print_r($estados);
     echo "<hr/>REVERSE: Retorna um array com os elementos na ordem inversa <br/>";
     $inverso = array_reverse($estados);
     echo "REVERSE: "; print_r($inverso);
@@ -34,6 +34,6 @@
     $dividir = array_slice($estados, 1, 2);
     echo "SLICE: "; print_r ($dividir); echo "<br/>"
     ?>
-    
 </body>
+<center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
 </html>

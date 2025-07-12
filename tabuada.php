@@ -56,7 +56,7 @@
     for ($i = 0; $i<11; $i++){
         print "$numero10 x $i = " . ($numero10 * $i) . "<br/>";
     }
-#Desenvolvido por Matheus Dela Libera dos Anjos
     ?>
 </body>
+<center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
 </html>
