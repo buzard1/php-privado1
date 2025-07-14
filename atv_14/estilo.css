@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #eee;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #03dac6;
+  }
+  
+
+  table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    margin-bottom: 1.5rem;
+    table-layout: fixed;
+  }
+
+  table tr:first-child th {
+    background-color: #333;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 2px solid #444;
+    text-align: center;
+  }
+  
+
+  table th[rowspan="2"] {
+    padding: 1rem;
+    background-color: #1e1e1e;
+    border-right: 2px solid #444;
+    width: 120px;
+  }
+  
+
+  table tr:nth-child(2) td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #444;
+    text-align: center;
+  }
+  
+
+  input[type="text"],
+  input[type="number"] {
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #2b2b2b;
+    color: #eee;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #03dac6;
+    background-color: #1e1e1e;
+  }
+  
+
+  button[type="submit"],
+  button[type="reset"] {
+    background-color: #03dac6;
+    color: #000;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00bfa5;
+  }
+  
+  button[type="reset"] {
+    background-color: #ff5252;
+    color: #fff;
+  }
+  
+  button[type="reset"]:hover {
+    background-color: #d32f2f;
+  }
+  
+
+  table tr:last-child td {
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #444;
+  }
+  
+
+  center {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+
+  address {
+    margin-top: 2rem;
+    font-style: normal;
+    color: #888;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
