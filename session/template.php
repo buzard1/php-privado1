@@ -21,22 +21,22 @@
             </label>
             <label>
                 Prazo (Opcional):
-                <input type="text" name="prazo"/>
+                <input type="date" name="prazo"/>
             </label>
             <fieldset>
                 <legend>Prioridade:</legend>
                 <label>
-                    <input type="radio" name="prioridade" value="baixa" checked/>
+                    <input type="radio" name="prioridade" value = 1 checked/>
                     Baixa
-                    <input type="radio" name="prioridade" value="media"/>
+                    <input type="radio" name="prioridade" value = 2/>
                     Média
-                    <input type="radio" name="prioridade" value="alta"/>
+                    <input type="radio" name="prioridade" value = 3/>
                     Alta
                 </label>
             </fieldset>
             <label>
                 Tarefa concluída
-                <input type="checkbox" name="concluida" value="sim"/>
+                <input type="checkbox" name="concluida" value=1/>
             </label>
             <input type="submit" value="Cadastrar"/>
         </fieldset>
