@@ -4,7 +4,7 @@
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $conexao = conectarBanco();
 
-        $id = filter_var($_POST["id"], FILTER_SANITIZE_NUMBER_INT);
+        $id = filter_var($_POST["id_cliente"], FILTER_SANITIZE_NUMBER_INT);
         $nome = htmlspecialchars(trim($_POST["nome"]));
         $endereco = htmlspecialchars(trim($_POST["endereco"]));
         $telefone = htmlspecialchars(trim($_POST["telefone"]));

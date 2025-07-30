@@ -1,0 +1,36 @@
+body {
+    background-color: #f2f6fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #0d6efd; /* azul bootstrap */
+}
+
+label {
+    font-weight: 600;
+}
+
+input.form-control {
+    border-radius: 6px;
+    box-shadow: inset 0 1px 3px rgb(0 0 0 / 0.1);
+}
+
+button.btn-primary {
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.nav-link.active {
+    font-weight: 600;
+    color: #ffc107 !important; /* Cor amarela para o item ativo */
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+button.btn-danger {
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
