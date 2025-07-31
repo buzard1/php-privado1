@@ -50,7 +50,7 @@
     </form>
 </div>
 
-<!-- Bootstrap JS Bundle (opcional para componentes JS do Bootstrap) -->
+<center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- NAVBAR SIMPLES -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <div class="collapse navbar-collapse">
@@ -34,5 +32,7 @@
   </div>
 </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
+
 </body>
 </html>

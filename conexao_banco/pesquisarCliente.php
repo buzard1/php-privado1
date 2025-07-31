@@ -24,6 +24,7 @@
   </div>
 </nav>
 
+
 <div class="container mt-5">
     <h2 class="mb-4 text-center">Pesquisar Cliente</h2>
 
@@ -42,6 +43,7 @@ if (!$busca) {
         </div>
         <button type="submit" class="btn btn-primary w-100">Pesquisar</button>
     </form>
+    <center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
     <?php
     exit;
 }
@@ -63,6 +65,7 @@ if (!$clientes) {
     exit;
 }
 ?>
+
 
 <table class="table table-bordered table-hover">
     <thead class="table-dark">
@@ -90,9 +93,10 @@ if (!$clientes) {
     <?php endforeach; ?>
     </tbody>
 </table>
+
 </div>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

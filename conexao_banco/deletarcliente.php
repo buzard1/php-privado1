@@ -33,6 +33,7 @@
         <button type="submit" class="btn btn-danger w-100">Excluir Cliente</button>
     </form>
 </div>
+<center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
