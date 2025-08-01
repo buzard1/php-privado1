@@ -6,14 +6,12 @@
  * Função para conectar ao banco de dados
  * Retorna um objeto de conexão MySQLi ou interrompe o script em caso de erro.
  */
-
     function conectadb(){
         $endereco = "localhost"; // Endereço do servidor MySQL
         $usuario = "root"; //Nome de usuário do banco de dados
         $senha = ""; //Senha do banco de dados
         $banco = "empresa"; //Nome do banco de dados
-    }
-
+       
     try{
         //Criação de conexão
         $con = new mysqli($endereco, $usuario, $senha, $banco);
@@ -25,4 +23,5 @@
         //Exibe uma mensagem de erro e encerra o script
         die("Erro na conexão:".$e->getMessage());
     }
+}
 ?>
