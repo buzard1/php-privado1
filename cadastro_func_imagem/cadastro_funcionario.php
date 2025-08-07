@@ -26,9 +26,7 @@
         <input type="file" name="foto" id="foto" required><br>
 
         <button type="submit">Cadastrar</button>
-
     </form>
     </div>
-    
 </body>
 </html>

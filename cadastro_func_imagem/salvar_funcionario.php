@@ -22,7 +22,7 @@ function redimensionarImagem($imagem,$largura,$altura){
     ob_start();
 
     // image.jpeg() ENVIA A IMAGEM PARA O OUTPUT
-    imagejpeg($novaImagem);=
+    imagejpeg($novaImagem);
 
     //ob_get_clean PEGA O CONTEUDO DO BUFFER E LIMPA
     $dadosImagem = ob_get_clean();
@@ -38,7 +38,7 @@ function redimensionarImagem($imagem,$largura,$altura){
 
 //CONFIGURAÇÃO DO BANCO DE DADOS
 $host = 'localhost';
-$dbname = 'bd_imagens';
+$bdname = 'bd_imagens';
 $username = 'root';
 $password = '';
 
@@ -82,3 +82,16 @@ try{
     echo "Erro".$e->GetMessage(); // MOSTRA O ERRO SE HOUVER
 }
 ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Imagens</title>
+</head>
+<body>
+    <h1>Lista de imagens</h1>
+
+    <a href="consulta_funcionario.php">Listar funcionarios</a>
+</body>
+</html>
