@@ -32,7 +32,7 @@
                     // A LINHA BAIXO PEGA O VALOR id QUE FOI ENVIADO PELO FORMULARIO(id DO FUNCIONARIO A SER EXCLUIDO)
                     $excluir_id = $_POST['excluir_id'];
                     //monta a query sql para deletar o funcionario com o id correspondente
-                    $sql_excluir = "DELETE FROM funcionario WHERE id= :id";
+                    $sql_excluir = "DELETE FROM funcionarios WHERE id= :id";
 
                     //PREPARA A QUERY PARA A EXECUÇÃO SEGURA EVITANDO SQL INJECTION
                     $stmt_excluir = $pdo->prepare($sql_excluir);
@@ -66,6 +66,8 @@
         <input type="hidden" name="excluir_id" value="<?=$id?>">
         <button type="submit">Excluir Funcionario</button>
     </form>
+    <center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
+
 </body>
 </html>
 <?php
